@@ -1,0 +1,723 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "doctorId": 2,
+      "firstName": "Brenda",
+      "lastName": "Smith",
+      "email": "bsmith@gmail.com",
+      "phoneNumber": "319-222-2221",
+      "role": "PATIENT"
+    },
+    {
+      "id": 2,
+      "firstName": "Dave",
+      "lastName": "Smith",
+      "email": "dsmith@gmail.com",
+      "phoneNumber": "319-222-2222",
+      "role": "DOCTOR"
+    },
+    {
+      "id": 3,
+      "doctorId": 2,
+      "firstName": "Robert",
+      "lastName": "Smith",
+      "email": "rsmith@gmail.com",
+      "phoneNumber": "319-222-2223",
+      "role": "PATIENT"
+    },
+    {
+      "id": 4,
+      "doctorId": 2,
+      "firstName": "Adam",
+      "lastName": "Smith",
+      "email": "asmith@gmail.com",
+      "phoneNumber": "319-222-2224",
+      "role": "PATIENT"
+    },
+    {
+      "id": 5,
+      "doctorId": 2,
+      "firstName": "Fran",
+      "lastName": "Smith",
+      "email": "fsmith@gmail.com",
+      "phoneNumber": "319-222-2225",
+      "role": "PATIENT"
+    },
+    {
+      "id": 6,
+      "doctorId": 2,
+      "firstName": "George",
+      "lastName": "Smith",
+      "email": "gsmith@gmail.com",
+      "phoneNumber": "319-222-2226",
+      "role": "PATIENT"
+    }
+  ],
+  "meals": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "2021-03-22T05:00:00.000Z",
+      "sugar": 10,
+      "food": "Turkey Sandwich",
+      "details": "\n    1 slice of Oroweat Bread\n    1 oz Boar's Head Turkey\n    1 oz Boar's Head Tham\n    ",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": true,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "date": "2021-03-22T05:00:00.000Z",
+      "sugar": 0,
+      "food": "2 Muffins (no sugar or flour)",
+      "details": "\n   no flour\n   no sugar\n    ",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": true,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "date": "2021-03-22T05:00:00.000Z",
+      "sugar": 0,
+      "food": "Apple & Peanut Butter",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": true,
+      "healthyFats": true,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "date": "2021-03-29T05:00:00.000Z",
+      "sugar": 34,
+      "food": "2 donuts",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "date": "2021-03-29T05:00:00.000Z",
+      "sugar": 30,
+      "food": "10oz Sweet Wine",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": true,
+      "meat": true,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": true,
+      "fishSeafood": false
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "date": "2021-03-29T05:00:00.000Z",
+      "sugar": 0,
+      "food": "2 Muffins",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": true,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "date": "2021-03-29T05:00:00.000Z",
+      "sugar": 7,
+      "food": "Sandwich",
+      "details": "\n    1 slice of bread\n1 slice of cheese\n3 oz. pork loin w/BBQ sauce coating",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": true,
+      "dairy": true,
+      "meat": true,
+      "wholeGrains": true,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "date": "2021-03-29T05:00:00.000Z",
+      "sugar": 0,
+      "food": "Apple & Peanut Butter",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": true,
+      "healthyFats": true,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "date": "2021-03-29T05:00:00.000Z",
+      "sugar": 17,
+      "food": "Choc. Milk",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "date": "2021-03-29T05:00:00.000Z",
+      "sugar": 6,
+      "food": "1/3 donut",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 11,
+      "userId": 1,
+      "date": "2021-03-29T05:00:00.000Z",
+      "sugar": 76,
+      "food": "sopapillas ",
+      "details": "\n    honey\n    sour cream\n    lettuce\n    tomatoes\n    avocado\n    caso\n    corn tortillas\n    2 oz ground beef\n    ",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": true,
+      "vegtables": true,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 12,
+      "userId": 1,
+      "date": "2021-03-30T05:00:00.000Z",
+      "sugar": 0,
+      "food": "Muffin",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": true,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 13,
+      "userId": 1,
+      "date": "2021-03-30T05:00:00.000Z",
+      "sugar": 50,
+      "food": "2 Burritos",
+      "details": "\n    5 green olives\n    2 corn tortillas\n    2oz. Ground beef\n    spinach leaves, tomatoes\n    avocado\n    sour cream 1 Tbl.\n    ",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": true,
+      "meat": true,
+      "wholeGrains": true,
+      "vegtables": true,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 14,
+      "userId": 1,
+      "date": "2021-03-30T05:00:00.000Z",
+      "sugar": 12,
+      "food": "2 Fig Newtons",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 15,
+      "userId": 1,
+      "date": "2021-03-30T05:00:00.000Z",
+      "sugar": 0,
+      "food": "Spaghetti squash",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": true,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 16,
+      "userId": 1,
+      "date": "2021-03-30T05:00:00.000Z",
+      "sugar": 0,
+      "food": "2 Tb. Sunflower seeds",
+      "details": "",
+      "legumes": true,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 17,
+      "userId": 1,
+      "date": "2021-03-30T05:00:00.000Z",
+      "sugar": 8,
+      "food": "1/2 donut",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": true,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 18,
+      "userId": 1,
+      "date": "2021-03-25T05:00:00.000Z",
+      "sugar": 0,
+      "food": "Muffin",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": true,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 19,
+      "userId": 1,
+      "date": "2021-03-25T05:00:00.000Z",
+      "sugar": 10,
+      "food": "Sandwich",
+      "details": "\n    1 slice bread\n    Boar's Head 2 oz. Turkey and Ham\n    1 slice of cheese\n    ",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": true,
+      "dairy": true,
+      "meat": true,
+      "wholeGrains": true,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 20,
+      "userId": 1,
+      "date": "2021-03-25T05:00:00.000Z",
+      "sugar": 0,
+      "food": "Apple & Peanut Butter",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": true,
+      "healthyFats": true,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 21,
+      "userId": 1,
+      "date": "2021-03-25T05:00:00.000Z",
+      "sugar": 0,
+      "food": "2 Fish Tacos",
+      "details": "Steamed veggies",
+      "legumes": false,
+      "fruitsNuts": true,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": true,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 22,
+      "userId": 1,
+      "date": "2021-03-25T05:00:00.000Z",
+      "sugar": 64,
+      "food": "2 swirls",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": true,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": true,
+      "fishSeafood": false
+    },
+    {
+      "id": 23,
+      "userId": 1,
+      "date": "2021-03-25T05:00:00.000Z",
+      "sugar": 0,
+      "food": "Chips and Salsa",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": true,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 24,
+      "userId": 1,
+      "date": "2021-03-30T05:00:00.000Z",
+      "sugar": 18,
+      "food": "Sandwich",
+      "details": "\n    3 slices of bread\n    Boar's Head Turkey and Ham (3 oz)\n    3 slices of cheese\n    ",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": true,
+      "dairy": true,
+      "meat": true,
+      "wholeGrains": true,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 25,
+      "userId": 1,
+      "date": "2021-03-30T05:00:00.000Z",
+      "sugar": 0,
+      "food": "Apple & Carrots",
+      "details": "Olive oil for dipping",
+      "legumes": false,
+      "fruitsNuts": true,
+      "healthyFats": true,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": true,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 26,
+      "userId": 1,
+      "date": "2021-03-30T05:00:00.000Z",
+      "sugar": 0,
+      "food": "Almonds, half muffin & hummus",
+      "details": "",
+      "legumes": true,
+      "fruitsNuts": true,
+      "healthyFats": false,
+      "dairy": true,
+      "meat": true,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 27,
+      "userId": 1,
+      "date": "2021-03-31T05:00:00.000Z",
+      "sugar": 10,
+      "food": "Banana, almonds, and pumpkin roll",
+      "details": "",
+      "legumes": false,
+      "fruitsNuts": true,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 28,
+      "userId": 1,
+      "date": "2021-03-31T05:00:00.000Z",
+      "sugar": 10,
+      "food": "Homemade caramel frapp",
+      "details": "1/2 cup",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 29,
+      "userId": 1,
+      "date": "2021-03-31T05:00:00.000Z",
+      "sugar": 0,
+      "food": "Black bean salad",
+      "details": "\n    corn\n    tomatoes, cilantro, jalopenos\n    chick peas\n    olive oil\n    ",
+      "legumes": true,
+      "fruitsNuts": false,
+      "healthyFats": true,
+      "dairy": false,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": true,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 30,
+      "userId": 1,
+      "date": "2021-03-31T05:00:00.000Z",
+      "sugar": 9,
+      "food": "1/2 Sandwich & carrots",
+      "details": "Bread & BH Turkey & Ham",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": false,
+      "dairy": false,
+      "meat": true,
+      "wholeGrains": true,
+      "vegtables": true,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 31,
+      "userId": 1,
+      "date": "2021-04-01T05:00:00.000Z",
+      "sugar": 9,
+      "food": "Sandwich",
+      "details": "\n    1 bread\n    4 slices of meat 5 oz.\n    1 1/2 slices of cheese\n    ",
+      "legumes": false,
+      "fruitsNuts": false,
+      "healthyFats": true,
+      "dairy": true,
+      "meat": false,
+      "wholeGrains": true,
+      "vegtables": false,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 32,
+      "userId": 1,
+      "date": "2021-04-01T05:00:00.000Z",
+      "sugar": 42.5,
+      "food": "Snack",
+      "details": "\n    piece of candy\n    choc. Milk\n    fruit juice\n    hummus\n    carrot\n    olive oil\n    almonds\n    ",
+      "legumes": true,
+      "fruitsNuts": true,
+      "healthyFats": true,
+      "dairy": true,
+      "meat": false,
+      "wholeGrains": false,
+      "vegtables": true,
+      "alcohol": false,
+      "fishSeafood": false
+    },
+    {
+      "id": 33
+    },
+    {
+      "id": 34
+    },
+    {
+      "id": 35
+    },
+    {
+      "id": 36
+    },
+    {
+      "id": 37
+    },
+    {
+      "id": 38
+    },
+    {
+      "id": 39
+    },
+    {
+      "id": 40
+    },
+    {
+      "id": 41
+    },
+    {
+      "id": 42
+    },
+    {
+      "id": 43
+    },
+    {
+      "id": 44
+    },
+    {
+      "id": 45
+    },
+    {
+      "id": 46
+    },
+    {
+      "id": 47
+    },
+    {
+      "id": 48
+    },
+    {
+      "id": 49
+    },
+    {
+      "id": 50
+    },
+    {
+      "id": 51
+    },
+    {
+      "id": 52
+    },
+    {
+      "id": 53
+    },
+    {
+      "id": 54
+    },
+    {
+      "id": 55
+    },
+    {
+      "id": 56
+    },
+    {
+      "id": 57
+    },
+    {
+      "id": 58
+    },
+    {
+      "id": 59
+    },
+    {
+      "id": 60
+    },
+    {
+      "id": 61
+    },
+    {
+      "id": 62
+    },
+    {
+      "id": 63
+    },
+    {
+      "id": 64
+    },
+    {
+      "id": 65
+    },
+    {
+      "id": 66
+    },
+    {
+      "id": 67
+    },
+    {
+      "id": 68
+    },
+    {
+      "id": 69
+    },
+    {
+      "id": 70
+    },
+    {
+      "id": 71
+    },
+    {
+      "id": 72
+    }
+  ]
+}
